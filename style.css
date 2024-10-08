@@ -1,0 +1,13 @@
+p {
+    color:blueviolet;
+    font-family:Georgia;
+    font-size: 0.9em;
+    text-align: center;
+    background-color: gray
+    margin: 100px;
+}
+
+.article{
+    background-color:beige;
+    padding: 10px;
+}
