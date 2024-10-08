@@ -1,13 +1,30 @@
 p {
     color:blueviolet;
-    font-family:Georgia;
+    font-family:'Courier New';
     font-size: 0.9em;
-    text-align: center;
+    text-align: left;
     background-color: gray
-    margin: 100px;
+    margin: 50px;
 }
 
 .article{
-    background-color:beige;
+    background-color:rgb(218, 210, 199);
     padding: 10px;
+    height: 170px;
+    position: relative;
+    overflow: scroll;
+}
+
+.hello{
+    background-color:rgb(218, 210, 199);
+    padding: 5px;
+    height: 80px;
+    position: sticky;
+}
+
+.backimage{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
