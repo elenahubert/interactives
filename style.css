@@ -28,3 +28,11 @@ p {
     top: 0px;
     z-index: -1;
 }
+
+.heading{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Georgia;
+    color:#7ba8d6;
+}
