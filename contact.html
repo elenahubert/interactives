@@ -24,12 +24,37 @@
         background-color:whitesmoke;
         margin: 3vw;
         padding: 5vw;
-        text-align: center;}   
+        text-align: center;} 
+        .row {
+        display: flex; 
+        gap: 1px;
+        }
+.box {
+        width: 100%;
+        height: 6vw;
+        background: rgb(231, 222, 222);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.8vw;
+        }
+a:hover{
+        color:green;
+        }  
 </style>
 </head>
+<body>
+<!--Navigation bar-->
+<div class="row">
+        <div class="box"><a href="index.html">Home</a></div>
+        <div class="box"><a href="about.html">About Me</a></div>
+        <div class="box"><a href="mywork.html">My Work</a></div>
+        <div class="box"><a href="myresume.html">My Experience</a></div>
+        <div class="box"><a href="contact.html">Contact Me</a></div>
+    </div>
+<br>
 <h1 class="heading">Send me a line!</h1>
 <br>
-<p>
 <div class="flex-container">
 <div>
 <a target="_blank" href="tel:4043759415" class="heading2">Give me a call</a>
@@ -41,5 +66,5 @@
 <a target="_blank" href="https://www.linkedin.com/in/elena-hubert-56104a236" class="heading2">Connect with me online</a>
 </div>
 </div>
-</p>
+</body>
 </html>

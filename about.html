@@ -47,15 +47,41 @@
         border-style: dotted;
         color: #7ba8d6;
     }
+    .row {
+        display: flex; 
+        gap: 1px;
+    }
+    .box {
+        width: 100%;
+        height: 6vw;
+        background: rgb(231, 222, 222);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.8vw;
+    }
+    a:hover{
+        color:green;
+        }
+
     </style>
 </head>
+<body>
+<!--Navigation bar-->
+<div class="row">
+    <div class="box"><a href="index.html">Home</a></div>
+    <div class="box"><a href="about.html">About Me</a></div>
+    <div class="box"><a href="mywork.html">My Work</a></div>
+    <div class="box"><a href="myresume.html">My Experience</a></div>
+    <div class="box"><a href="contact.html">Contact Me</a></div>
+</div>
+<br>
 <!--Heading-->
 <h1 class="heading">Hi, I'm Elena!</h1>
 <br>
 <!--Photo-->
 <img class="image" src="grad-pic.jpg" alt="Elena standing in a white dress with a grad sash">
 <br>
-<p>
 <!--Text boxes-->
 <div class="text-heading">Getting the basics out of the way...</div>
 <br>
@@ -88,5 +114,5 @@
     <li>HBO shows, including but not limited to The Wire, Industry and True Detective (Seasons 1 and 4)</li>
 </ul>
 </div>
-</p>
+</body>
 </html>

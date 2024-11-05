@@ -31,58 +31,49 @@
         margin-right: auto;
         width: 30%;
         }
-        .tinytext{
-        text-align: center;
-        line-height: 0;
-        font-size: 8px;
-        position: sticky;
-        font-weight: lighter;
-        color: grey;
+        a:hover{
+        color:green;
         }
-        p{
-        line-height: 1;
+        #container {
+            display: flex;
+            flex-direction: row;
         }
-        ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #7ba8d6;
+        @media (orientation: portrait) {
+            #container {
+                flex-direction: column;
+            }
         }
-        li{
-        float: left;
+        .item {
+            text-align: center;
+            padding: 5vw;
+            border-width: .5px;
+            border-style: solid;
+            display: block;
+            font-size: 2vw;
+            font-weight: lighter;
+            font-family: Georgia;
+            background-color: rgb(231, 222, 222);
         }
-        li a{
-        display: block;
-        margin: auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-        color: whitesmoke;
-        text-align: center;
-        padding: 2vw 5vw;
-        text-decoration: none;
-        font-family: Georgia;
-        }
-        li a:hover{
-        background-color: #111;
-        }
-        
+
     </style>
+</head>
 <!--Start of page-->
 <h1 class="heading">Hi there!</h1>
-<p class="heading2">I'm Elena.
+<body>
+<p class="heading2">I'm Elena.</p>
 <!--Gif-->
 <a target="_blank" href="https://tenor.com/view/greet-goodbye-goodbye-hand-waves-greetings-hand-wave-gif-16588692033114285892"><img class="image, center" src="greet-goodbye-goodbye.gif" alt="Cartoon pear waving"></a>
-<!--Navigation bar COME BACK-->
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About Me</a></li>
-<li><a href="mywork.html">My Work</a></li>
-<li><a href="myresume.html">My Experience</a></li>
-<li><a href="contact.html">Contact Me</a></li>
-</ul>
+<!--Navigation bar-->
+<br>
+<div id="container">
+    <div class="item center"><a href="index.html">Home</a></div>
+    <div class="item center"><a href="about.html">About Me</a></div>
+    <div class="item center"><a href="mywork.html">My Work</a></div>
+    <div class="item center"><a href="myresume.html">My Experience</a></div>
+    <div class="item center"><a href="contact.html">Contact Me</a></div>
+</div>
+</body>
 
-</p>
 </html>
 
 
